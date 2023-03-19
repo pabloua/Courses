@@ -1,0 +1,42 @@
+Por Fernando Trasvent - Platzi User
+
+Regiones
+Área geográfica con por lo menos un data center. Algunos servicios son exclusivos de ciertas regiones.
+
+-> Canada East
+-> North Europe
+-> South Africa North
+
+Regiones Especiales
+
+-> US DoD
+-> US Gov Virginia
+-> US Gov Iowa
+-> China East
+-> China North
+
+Azure es el proveedor con más regiones globales y en constante expansión.
+
+Zonas de disponibilidad
+
+-> Distintos data centers en una misma región equipados con energía de emergencia, refrigeración y redes independientes.
+
+Propósito
+
+-> Permiten redudancia de servicios y datos ante errores, desastres u otros imprevistos.
+
+Consideraciones
+
+-> No todas las regiones son compatibles con zonas de disponiblidad.
+-> Esto puede implicar un costo.
+
+Pares de regiones
+
+Regiones con por lo menos 500 km de distancia entre ambas para replicar recursos en caso de interrupciones, como:
+
+-> Desastres naturales.
+-> Incendios.
+-> Disturbios civiles.
+-> Ausencia de electricidad.
+-> Daños en la red física.
+-> Otros.
