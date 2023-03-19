@@ -1,0 +1,25 @@
+Resumen de la clase (Por Laura Cristina Cespedes Bastos - Platzi User)
+
+Que es Azure?
+
+-> Es un proveedor de servicios en la nube, cuenta con mas de 100 servicios distintos para ser accedidos a través de internet. Cubre prácticamente cualquier necesidad para la nube o de computo.
+
+Ventajas:
+
+-> Preparado para el futuro
+-> Crea a tu ritmo
+-> Listo para cualquier tipo de nube
+-> Confiable
+-> Cuenta con plataforma Microsoft Learn
+
+Como funciona Azure:
+
+-> A través de la virtualización (se puede realizar de forma local o en la nube en un Datacenter).
+-> Basado en virtualización abstrae los elementos de una PC recibidos por un Hypervisor.
+-> Se usa un orquestador encargado de recibir nuestras indicaciones.
+
+Cuenta con:
+
+-> Azure Portal
+-> Azure Marketplace
+
