@@ -1,0 +1,29 @@
+- Para comprimir un archivo:
+
+tar -cvf <NombreDelArchivoConExtensionComprimida> <NombreOriginalArchivo>
+tar -cvf ToCompress.tar ToCompress
+
+c: comprimir; v: verbose; f: file.
+
+- Para obtener un formato aún más eficiente de compresión se agrega una z:
+
+tar -cvzf <NombreDelArchivoConExtensionComprimida> <NombreOriginalArchivo>
+tar -cvzf ToCompress.tar ToCompress
+
+- Para descomprimir un archivo:
+
+tar -xvf ToCompress.tar
+(Para tar solamente)
+
+tar -xvzf ToCompress.tar.gz
+(Para gzip)
+
+- Para comprimir usando zip se utiliza el siguiente comando:
+
+zip -r <NombreDelComprimido> <NombreOriginalDelArchivo>
+zip -r ToCompressInZip.zip ToCompress
+
+- Para descomprimir un archivo .zip:
+
+unzip <NombreDelComprimido>
+unzip ToCompressInZip.zip

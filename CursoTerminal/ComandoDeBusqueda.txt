@@ -1,0 +1,27 @@
+- Para encontrar la ubicación del binario de un comando específico:
+
+which <NombreDelComando>
+which code
+
+- Para encontrar un archivo con un nombre especifico:
+
+find ./ -name *.txt
+
+- Para encontrar un archivo de un tipo (file(f) o directory(d)) distinto
+se puede usar:
+
+find ./ -type f -name *.log
+
+- También se pueden buscar los archivos por tamaño:
+
+find ./ -size 20M
+
+- Reto: Guardar una búsqueda de todos los archivos de texto y guardarlo
+en otro documento de texto:
+
+find ~ -type f -name '*.txt' > ./misdocumentos.txt
+
+El símbolo ~ permite ir directamente a la carpeta donde esta guardado 
+todos los archivos y directorios. El signo > es una redirección de un Standard
+Output a un documento de texto.
+

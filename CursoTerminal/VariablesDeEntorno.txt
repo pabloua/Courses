@@ -1,0 +1,25 @@
+-Para crear enlaces simbólicos:
+
+ln -s <DireccionDeLaRuta> <NombreDelEnlaceSimbolico>
+ln -s Documents/Dev Desarrollo
+
+- para obtener la dirección del Home:
+
+echo $HOME
+
+- para ir al home:
+
+cd $HOME
+
+- para encontrar todos los binarios que ejecuta nuestro sistema:
+
+echo $PATH
+
+- para modificar las variables de entorno es necesario entrar a .bashrc
+
+code .bashrc
+
+- para agregar una nueva variable de entorno (PATH) se ingresa a .bashrc y
+se usa el siguiente comando:
+
+PATH=$PATH:/home/pablo/bin

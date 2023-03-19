@@ -1,0 +1,32 @@
+- Verificar con pwd que se encuentra en la carpeta donde desea crear el repositorio:
+
+- Para crear el repositorio usar:
+
+git init 
+
+- Para configurar el nombre de usuario y el email:
+
+git config --global user.email "tu@email.com"
+git config --global user.name "Tu Nombre"
+
+- Para ver todas las configuraciones del repositorio se puede usar:
+
+git config --list
+
+- git init: para inicializar el repositorio git y el staged
+- git add nombre_del_archivo.txt: enviar el archivo al staged
+- git status: ver el estado, si se requiere agregar al starget o si se requiere commit
+- git conf: para ver las posibles configuraciones
+- git conf --list: para ver la lista de configuraciones hechas
+- git conf --list --show-origin: para mostrar las configuraciones y sus rutas
+- git rm --cached nombre_del_archivo.txt: para eliminar el archivo del staged(ram)
+[PELIGRO] - git rm nombre_del_archivo.txt: para eliminar del repositorio
+
+- Para modificar el nombre de usuario usar:
+
+git config --global --replace-all user.name “Aquí va tu nombre modificado”
+
+- Para borrar el nombre de usuario o email se utiliza:
+
+git config --global --unset-all user.name :Elimina el nombre del usuario
+git config --global --add user.name “Aquí va tu nombre”

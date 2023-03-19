@@ -1,0 +1,37 @@
+- para hacer una búsqueda de un proceso que contenga una palabra específica:
+
+ps aux | grep <palabra>
+ps aux | grep pablo
+
+- Para abrir el editor de texto vi:
+
+vi <nombreArchivo>
+vi pablo
+
+- Con Ctrl + z se sale de vi (Se detiene el proceso)
+
+- Para visualizar los procesos que se estan ejecutando:
+
+jobs 
+
+- Para reanudar un proceso que se encuentre detenido:
+
+fg
+
+- Para abandonar vi es necesario utilizar ctrl + c y:
+
+:qa!
+
+- Para crear un script:
+
+vi script.sh 
+
+- Para ejecutar un script sin perder el acceso a la consola:
+
+./script.sh &
+
+- Para correr un script sin que se cuelgue y que se puede observar una 
+salida específica:
+
+nohup <NombreDelScript>
+nohup ./script.sh &

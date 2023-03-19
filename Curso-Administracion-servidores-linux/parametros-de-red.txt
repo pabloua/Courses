@@ -1,0 +1,28 @@
+- ifconfig == interface configuration
+
+- otra forma de conocer las interfaces de red es con:
+
+ip a
+
+- En el caso que hayan direcciones IPv4 e IPv6, es posible filtrar solamente por
+IPv4 usando:
+
+ip -4 a
+
+- Para saber el nombre del host:
+
+hostname
+
+- Para determinar el gateway por defecto:
+
+route -n
+
+- Para saber cuales son las ips de un sitio específico:
+
+nslookup <dominio> 
+nslookup google.com
+
+- Para descargar cosas de internet se puede usar:
+
+curl <dominio>
+wget <dominio>

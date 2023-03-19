@@ -1,0 +1,36 @@
+- Para obtener el tipo de un comando:
+
+type <NombreDelComando>
+
+- Para ponerle un alias a un comando específica de manera temporal:
+
+alias <NombreDelAlias>="<Comando original>"
+alias l="ls -lh"
+
+- Para encontrar una descripción de un comando:
+
+help <NombreDelComando> 
+<Comando> --help
+
+- help funciona para la shell bash.
+
+- Como obtener el manual de usuario de un comando:
+
+man <Comando>
+
+- Para ver información de un comando:
+
+info <Comando>
+
+- Para ver de forma corta que hace un comando:
+
+whatis <Comando>
+
+- Para ver la historia de todos los comandos usados hasta el momento:
+
+history
+
+- Para repetir un comando específico de la historia:
+
+!<NúmeroDelComando>
+!33

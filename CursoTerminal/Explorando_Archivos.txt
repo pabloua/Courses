@@ -1,0 +1,26 @@
+- Para ver el contenido de un archivo en la terminal:
+
+cat <NombreDelArchivo>
+
+- Para ver las primeras 10 líneas de un archivo de texto:
+
+head <NombreDelArchivo>
+
+- Para ver las primeras n líneas de un archivo de texto:
+
+head <NombreDelArchivo> -n <NúmeroDeLíneas>
+head <NombreDelArchivo> -n 15
+
+- Para ver las últimas 10 líneas de un archivo de texto:
+
+tail <NombreDelArchivo>
+
+- Para ver las últimas n líneas de un archivo de texto:
+
+tail <NombreDelArchivo> -n <NúmeroDeLíneas>
+tail <NombreDelArchivo> -n 15
+
+- Para ver el contenido de un archivo desde WSL se puede hacer así:
+
+wslview <NombreDelArchivo>
+

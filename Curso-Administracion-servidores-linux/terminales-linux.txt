@@ -1,0 +1,34 @@
+- Con Ctrl + alt + Fx se puede acceder a una de las 6 terminales de linux.
+
+- Para cambiar de terminal virtual se puede utilizar el comando:
+
+sudo chvt <1-6>
+sudo chvt 3
+
+- Para ver a que terminal estamos conectados se utiliza:
+
+tty
+
+- Para revisar quienes estan conectados al sistema y que estan haciendo:
+
+w
+who
+
+- Para realizar una conexión específica desde mi máquina a mi máquina:
+
+ssh localhost
+
+Con w podemos observar está nueva conexión.
+
+- Para ver un reporte de los procesos usados en el momento:
+
+ps 
+
+- Para obtener el process ID (PID) de una terminal específica:
+
+ps -ft tty<1-6>
+ps -ft tty1
+
+- Para terminar el uso de la terminal:
+
+kill -9 <PID>

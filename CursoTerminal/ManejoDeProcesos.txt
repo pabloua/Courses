@@ -1,0 +1,40 @@
+- Para visualizar los procesos que se estan ejecutando:
+
+ps 
+
+- Para ver que procesos estan utilizando más recursos se puede usar el comando:
+
+top 
+
+Dentro de esta interfaz se presiona la tecla h, esta permite la visualización 
+de todos los posible comandos 
+
+- Para acabar con un proceso usando su Process ID:
+
+kill <ProcessID>
+
+- Para suspender un proceso:
+
+ctrl+z 
+
+- Para consultar todos los procesos que tenemos en background podemos 
+hacerlo con el comando jobs.
+
+jobs
+
+- Para traer de nuevo un trabajo al foreground:
+
+fg <NumeroDelTrabajo>
+
+- Para terminar el trabajo:
+
+ctrl+d 
+
+- Para enviar un proceso directamente al background:
+
+cat > mi_nota.txt &
+
+- Otra opción para enviar un proceso al background es usando:
+
+bg <WorkID>
+

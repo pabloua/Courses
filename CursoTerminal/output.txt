@@ -1,0 +1,10 @@
+total 18K
+-rw-r--r-- 1 pablo.uribe 1049089  711 Aug 29 08:23 Comandos_Terminal.txt
+-rw-r--r-- 1 pablo.uribe 1049089  645 Aug 29 08:23 Explorando_Archivos.txt
+-rw-r--r-- 1 pablo.uribe 1049089 1.3K Aug 29 08:23 Manipulando_Archivos_y_Directorios.txt
+-rw-r--r-- 1 pablo.uribe 1049089    0 Aug 29 10:02 PipeOperator.txt
+-rw-r--r-- 1 pablo.uribe 1049089 1.3K Aug 29 08:23 Wildcards.txt
+-rw-r--r-- 1 pablo.uribe 1049089  120 Aug 29 08:45 error.txt
+-rw-r--r-- 1 pablo.uribe 1049089    0 Aug 29 10:11 output.txt
+-rw-r--r-- 1 pablo.uribe 1049089    0 Aug 29 08:31 prueba.txt
+-rw-r--r-- 1 pablo.uribe 1049089  690 Aug 29 09:56 redirecciones.txt

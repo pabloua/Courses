@@ -1,0 +1,59 @@
+Para servidores Red Hat:
+
+- La ubicación de pam es:
+
+ls /etc/pam.d 
+
+- La ubicación de las librerías:
+
+ls /lib64/security/
+
+- Para cambiar algunas configuraciones de PAM:
+
+ls /etc/security/
+
+- Para comprobar si una constraseña es buena o no:
+
+pwscore
+
+- Para listar los límites de un usuario: 
+
+ulimit -a 
+
+- Para cambiar la cantidad de procesos que puede tener un usuario:
+
+ulimit -u <NumeroDeProcesos>
+ulimit -u 10
+
+- Para crear un script de bash:
+
+vi script.sh
+
+#!/bin/bash
+echo "hola"
+$0
+
+Para salir: CTRL + c -> :wq
+
+- Se le asignan más permisos:
+
+chmod +x script.sh
+
+- Se corre el script para verificar la limitación de procesos:
+
+./script.sh
+
+- Para limitar el horario en que un usuario puede acceder al servidor:
+
+sudo vi /etc/security/time.conf
+
+- Para dar permisos de administrador a un usuario en un servidor Red Hat:
+
+gpasswd -a <NombreUsuario> wheel
+
+- Para profundizar más en el límite de recursos:
+
+https://drive.google.com/drive/folders/1Ac2mgaqKnRxxqq1V5eBAtA3W12jRVC5S?usp=sharing
+
+
+

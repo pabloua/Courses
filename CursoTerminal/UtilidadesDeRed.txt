@@ -1,0 +1,28 @@
+- Para ver la configuración de red del equipo:
+
+ifconfig
+
+- Para verificar la conexión a una página web se puede usar:
+
+ping <URLpaginaWEB>
+ping www.google.com
+
+- Para traer un archivo de texto de la internet:
+
+curl <URLpaginaWeb>
+curl www.google.com
+
+- Otra opción para traer documentos de la web:
+
+wget <URLpaginaWeb>
+wget www.google.com
+
+- Para saber cuando visitamos un sitio o dirección web cuales son las direcciones
+en las que nos conectamos:
+
+traceroute <URLpaginaWeb>
+traceroute www.google.com
+
+- Para saber si hay algún error en los dispositivos red, de una forma más amigable:
+
+netstat -i

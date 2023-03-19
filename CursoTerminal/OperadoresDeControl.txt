@@ -1,0 +1,26 @@
+- Para escribir múltiples comandos en la misma línea de código se usa (;):
+
+mkdir carpetaPrueba; ls; date 
+
+- Para realizar un conjunto de comando asíncronos (al mismo tiempo), se 
+usa el operador &:
+
+date & echo "hola" & ls
+
+- Para realizar comandos condicionales se puede usar el AND:
+
+cd carpeta && mkdir comida
+
+(Significa que primero intenta hacer cd a carpeta, si no es posible
+no ejecutará el mkdir comida)
+
+- También se puede usar el operador or (OJO):
+
+cd carpeta || mkdir comida
+
+Al condicional or no le importa si el comando anterior se ejecutó o no, 
+simplemente va probando todos los comandos a ver cuál se ejecuta.
+
+- Los condicionales OR y AND pueden ser combinados para crear operadores
+de control más complejos.
+

@@ -1,0 +1,27 @@
+Comandos de ramas Git y Github:
+
+- Para cambiar de rama:
+
+git checkout <RAMA> 
+
+- Para ver todas las ramas que hay:
+
+git branch
+
+- Para ver el árbol de versiones (recordar que se creo un alias):
+
+git arbolito
+
+- Para ver las ramas que existen y cual ha sido su historia:
+
+git show-branch
+
+
+- si se desea ver más datos de las ramas se puede usar:
+
+git show-branch --all
+
+- Para visualizar que le ha pasado al proyecto por fuera
+de la consola utiliza:
+
+gitk

@@ -1,0 +1,3 @@
+- Ir a la dirección https://code.visualstudio.com/ y darle click en el botón de: Download for Windows
+- En la pestaña "Seleccione las Tareas Adicionales" seleccionar todas las opciones
+- Y eso es todo!

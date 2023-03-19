@@ -1,0 +1,12 @@
+- Comandos para ver bonito todo lo que le ha sucedido
+al proyecto: 
+
+git log -all --graph --decorate --oneline
+
+- Para poner un alias: (En este caso de nombre arbolito)
+
+git config alias.arbolito "log --all --graph --decorate --oneline"
+
+- Para entender mejor el esquema con el que se trabaja en git se puede consultar
+la página https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+

@@ -1,0 +1,38 @@
+Significado grep: (Expresiones Regulares)
+
+- hacer una búsqueda global para las líneas que encajen con la expresión 
+regular (regular expression en inglés), e imprimirlas (print en inglés)
+
+- Por ejemplo, si se desea buscar todas las palabras que contengan Towers:
+
+grep Towers <NombreDelArchivo>
+grep Towers movies.csv
+
+- Si deseamos que el comando grep ignoré si es mayúscula o mínuscula la búsqueda:
+
+grep -i the movies.csv
+
+- Para contar las veces que aparece una palabra en movies (Case Sensitive): 
+
+grep -c <PalabraDeBúsqueda> <archivo>
+grep -c the movies.csv
+
+- Si se desea ignorar si es mayúscula o mínuscula en el conteo:
+
+grep -ci <PalabraDeBúsqueda> <archivo>
+grep -ci the movies.csv
+
+- Para encontrar archivos que no coincidan con la búsqueda:
+
+grep -vi <TérminoDeBúsqueda> <archivo>
+grep -vi the movies.csv
+
+- Para contar las palabras:
+
+wc <NombreDelArchivo>
+
+Output: <líneasdelarchivo> <caracteresdelarchivo> <númerodebits> <nombredelarchivo>
+
+Número de líneas: wc -l movies.csv
+Número de palabras: wc -w movies.csv
+Número de bits: wc -c movies.csv

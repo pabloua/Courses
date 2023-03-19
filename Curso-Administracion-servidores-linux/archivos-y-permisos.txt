@@ -1,0 +1,29 @@
+- para cambiar permisos de los archivos se puede usar el comando chmod
+
+- Los cambios se pueden hacer usando letras: u = user, g = group, o = others, a = all
+
+Eg. Agregar al usuario el permiso de ejecución (x) del archivo <Archivo>
+
+chmod u+x <Archivo>
+
+Eg. Quitar al grupo el permiso de escritura (w) del archivo <Archivo>
+
+chmod g-w <Archivo>
+
+Eg. Para darle un mismo permiso a todos los usuarios, se puede dejar un espacio
+en blanco:
+
+chmod +x <Archivo> 
+
+- La otra forma de usar chmod es usando número octales
+
+chmod 744 <Archivo>
+
+- Para cambiar el propietario de un archivo:
+
+sudo chown <usuario>:<grupo> <Archivo>
+
+- Si queremos pasar el archivo y que el usuario y grupo sean el mismo:
+
+sudo chown <usuario>: <Archivo>
+

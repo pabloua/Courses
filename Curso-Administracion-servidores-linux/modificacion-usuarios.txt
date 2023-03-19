@@ -1,0 +1,23 @@
+Ubuntu server:
+
+- Para agregar un nuevo usuario (pero no crea un Home):
+
+sudo useradd <NombreUsuario>
+
+- Otra forma de crear usuario es (mas completo):
+
+sudo adduser <NombreUsuario>
+
+- Para eliminar un usuario:
+
+sudo userdel <NombreUsuario>
+
+- Para ver como funciona el comando adduser:
+
+cat /usr/sbin/adduser
+cat /usr/sbin/<NombreComando>
+
+- Para modificar las caracteristicas de un usuario:
+
+sudo usermod <NombreUsuario>
+

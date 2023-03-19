@@ -1,0 +1,9 @@
+- tail tiene un mecanismo especial en el cual el puede estar pendiente
+si sucede un cambio en el archivo 
+
+tail -f <Archivo>
+
+- El comando tail admite leer múltiples archivos al tiempo:
+
+tail -f <Archivo1> <Archivo2> 
+

@@ -1,0 +1,17 @@
+- There are two methods mentioned in this website.
+
+- I prefer method 2, so will be summarising this method only.
+
+- Open your linux distribution, in my case, it is Ubuntu 20.04 LTS.
+
+- I find my file in the following path:
+
+cd /mnt/c/Users/<username>/Desktop - /mnt/c is the Windows' C Drive mounted to Linux.
+
+- Then copy the file into my WSL's home directory:
+
+cp <filename> ~/
+
+- Now go to the WSL's home directory and you can find the file there.
+
+cd ~/

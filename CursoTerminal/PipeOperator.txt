@@ -1,0 +1,20 @@
+- Para crear un Standard Output con un texto:
+
+echo "Probando echo" 
+
+- Para concatenar varios archivos se puede usar:
+
+cat archivo1.txt archivo2.txt
+
+- Para entregar el output de un comando como el input de otro comando se usan los pipeoperator:
+
+<OutputComando1> | <InputComando2 
+ls -lh | less
+
+- Para guardar el output de un comando en un archivo de texto:
+
+<Comando> | tee <NombreDelArchivo>.txt | less
+
+- Para organizar alfabéticamente los resultados:
+
+<Comando> | sort | tee <NombreDelArchivo>.txt | less

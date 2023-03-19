@@ -1,0 +1,22 @@
+Para Ubuntu server (debian):
+
+- Para identificar los usuarios:
+
+id 
+
+- Para saber que usuario es uno:
+
+whoami
+
+- Para ver todos los usuarios del sistema operativo:
+
+cat /etc/passwd
+
+- Los passwords se almacenan en: 
+
+sudo cat /etc/shadow
+
+- Para cambiarle el password a alguno de los usuarios:
+
+passwd <usuario>
+passwd pablo

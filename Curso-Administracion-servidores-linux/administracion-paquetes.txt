@@ -1,0 +1,76 @@
+Ubuntu Server:
+
+- Para actualizar paquetes:
+
+sudo apt-get update
+sudo apt update
+
+- Para descargar estos nuevos paquetes:
+
+sudo apt-get upgrade
+sudo apt upgrade
+
+- [peligroso] Para actualizar la distribución:
+
+sudo apt dist-upgrade
+
+- Para buscar un paquete:
+
+sudo apt search <paquete>
+sudo apt-cache search "mysql-server$"
+
+- Para ver todos los paquetes instalados en el sistema operativo:
+
+dpkg -l
+
+- Para cambiar la hora de nuestro servidor:
+
+sudo dpkg-reconfigure tzdata
+
+- Otra forma de buscar paquetes es con snap 
+
+sudo snap search <nombrepaquete>
+sudo snap search aws-cli
+
+- Para observar toda la información de un paquete:
+
+sudo snap info <nombrepaquete>
+sudo snap info aws-cli
+
+- Para hacer actualizaciones de Kernel sin necesidad de reiniciar:
+
+sudo snap install canonical-livepatch
+
+CentOS server (RedHat):
+
+- Para ver todos los paquetes instalados:
+
+rpm -qa
+
+- Para consultar la información de un paquete en específico:
+
+rpm -qi <NombreDelPaquete>
+rpm -qi bash
+
+- Para saber donde esta ubicado un paquete específico:
+
+rpm -qc <NombreDelPaquete>
+rpm -qc bash
+
+- Con CTRL + a se puede ir rápidamente al inicio de la consola
+
+- Para actualizar lo paquete se puede utilizar:
+
+sudo yum update
+
+Tarea
+
+yum search htop
+yum -y install epel-release
+yum repolist
+yum search htop
+yum update
+yum upgrade
+yum install htop
+yum update htop
+

@@ -1,0 +1,41 @@
+- Para buscar todos los archivos terminados en una misma extensión:
+
+ls *.<NombreDeLaExtension>
+ls *.txt 
+
+- Para buscar todos los archivos que empiecen igual se usa:
+
+ls <FormaEnQueIniciaElArchivo>*
+ls datos*
+
+- Si se desea buscar todos los archivos que arranquen igual pero tengan solo 1 caracter al final:
+
+ls <FormaEnQueIniciaElArchivo>?
+ls datos?
+
+- La cantidad de signos de interrogación define cuantos caracteres al final se buscan:
+
+ls <FormaEnQueIniciaElArchivo>???
+ls datos???
+
+- Para buscar todos los directorios/archivos que inicien por una mayúscula se puede hacer con:
+
+ls [[:upper:]]*
+
+- Si se desea buscar solamente carpetas que inicien con una mayúscula se usa:
+
+ls -d [[:upper:]]*
+
+- Para buscar todos los directorios/archivos que inicien por una minúscula se puede hacer con:
+
+ls [[:lower:]]*
+
+- Si se desea buscar solamente carpetas (no funciona bien) que inicien con una minúscula se usa:
+
+ls -d [[:lower:]]*
+
+- Para mostrar todos los archivos que inicien con uno u otro caracter (lógica or):
+- Cuando buscamos con esta wildcard ten en cuenta que es case sensitive, por lo que la letra “i” no es lo mismo que la letra “I”.
+
+ls [<Caracter1><Caracter2>]*
+ls [ad]*

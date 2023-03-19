@@ -1,0 +1,30 @@
+- Para ver la información específica del sistema operativo:
+
+top
+
+- Para ver la carga de la cpu:
+
+cat /proc/cpuinfo | grep -i "Processor"
+
+- load average: <1min> <5min> <15min> 
+
+- Load average mide la cantidad de procesadores lógicos utilizados por el
+servidor. Eg. Si tienes 2 procesadores, el valor puede ir de 0 a 2. 
+
+- Para visualizar la cantidad de memoria disponible:
+
+free -h
+
+- Para visualizar rapidamente los 5 procesos que más recursos están consumiendo:
+
+sudo ps auxf | sort -nr -k 3 | head -5
+
+- Otra forma de visualizar de una manera más organizada los recursos que estan
+siendo utilizados es con:
+
+htop
+
+- Para buscar cosas en sort se usa:
+
+/
+

@@ -1,0 +1,32 @@
+- Para cambiar de usuario:
+
+su - <NombreUsuario>
+su - nodejs
+
+- Para cambiar de usuario sin necesidad de digitar la contraseña del usuario específico:
+
+sudo su - <NombreUsuario>
+sudo su - nodejs
+
+- Para saber a que grupo pertenece un usuario:
+
+groups <NombreUsuario>
+
+- Para agregar un usuario al grupo sudo:
+
+sudo gpasswd -a <NombreUsuario> <NombreGrupo>
+sudo gpasswd -a nodejs sudo
+
+- Como removerle a un usuario los permisos de administrador:
+
+sudo gpasswd -d <NombreUsuario> <NombreGrupo>
+sudo gpasswd -d nodejs sudo
+
+- Otra forma de cambiar a un usuario de grupo:
+
+sudo usermod -aG <NombreGrupo> <NombreUsuario>
+sudo usermod -aG sudo nodejs
+
+- Para saber los permisos que tiene un usuario:
+
+sudo -l

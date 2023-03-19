@@ -1,0 +1,24 @@
+- Para ingresar al editor de texto vim:
+
+vim
+
+- Para salir del editor de texto vim
+
+:q 
+
+- Para salir y guardar lo que se hizo en el editor de texto:
+
+:qw
+
+- Para forzar la salida del editor de texto (y guardar):
+
+:qw!
+
+- Para insertar algo nuevo:
+
+i 
+
+- Documentación de vim:
+
+https://www.vim.org/docs.php
+

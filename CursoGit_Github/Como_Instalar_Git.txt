@@ -1,0 +1,15 @@
+Para Windows 10:
+
+- Ir a la dirección git-scm.com 
+- Descargar la última versión estable de Git para Windows 64 bit
+- En la pestaña "Select Components" verificar que este check la casida Git Bash Here
+- En la pestaña "Choosing the default editor used by Git" escoger Visual Studio Code.
+- [IMPORTANTE] en la pestaña "Adjusting your PATH environment" escoger la opción
+Git from the command line and also from 3rd-party software.
+- Usar OpenSSL library
+- En la pestaña "Configuring the line ending conversions" dejar la opción
+Checkout Windows-style, commit Unix-style line endings
+- Usar MinTTY
+- [Opcional] Enable symbolic-links check.
+
+Para ejecutar Git solamente es necesario ir al buscador y buscar Git bash

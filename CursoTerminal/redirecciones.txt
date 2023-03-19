@@ -1,0 +1,23 @@
+- Para obtener la Standard Output de la dirección en la que estamos:
+
+ls -l > output.txt
+
+- Para obtener la Standard Output de una dirección incluida en el Path en el que estamos:
+
+ls <DireccionCarpeta> > output.txt
+
+- Si se desea sobreescribir un archivo previo de output (O cualquier otra cosa):
+
+ls <DireccionCarpeta> >> output.txt
+
+- Si se desea guardar el Standard Error en un archivo de texto:
+
+ls -lñ 2> error.txt
+
+- Si se desea guardar tanto el Standard Output como el Error (Concatenando):
+
+ls jdfaskdfjkasdkjf >> error.txt 2>&1
+
+- Si se desea guardar tanto el Standard Output como el Error (Creando un nuevo archivo):
+
+ls jdfaskdfjkasdkjf > error.txt 2>&1

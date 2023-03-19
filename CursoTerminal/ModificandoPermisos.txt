@@ -1,0 +1,43 @@
+- Para ver que permisos tiene el archivo en uso:
+
+ls -l 
+
+Recordar que: el primer espacio indica el tipo de archivo, los otros 9 espacios
+indican los permisos de usuario (dueño), grupo (group) y mundo u otros (world).
+
+- Para cambiar los permiso a un archivo especifico se usa:
+
+chmod <OctalUsuario><OctalGrupo><OctalMundo> <NombreArchivo> 
+chmod 775 mitexto.txt
+
+- Para quitar acceso a un usuario:
+
+chmod u-<PermisoAQuitar> <NombreDelArchivo>
+chmod u-r mitexto.txt
+chmod u-x mitexto.txt
+chmod u-w mitexto.txt 
+
+- Para agregar acceso a un usuario:
+
+chmod u+<PermisoAQuitar> <NombreDelArchivo>
+chmod u+r mitexto.txt
+chmod u+x mitexto.txt
+chmod u+w mitexto.txt 
+
+-chmod acepta varios comandos al tiempo:
+
+chmod <Comando1>,<Comando2> <NombreDelArchivo>
+chmod u-x,go=w mitexto.txt
+
+-El signo = permite sobrescribir permisos a un archivo:
+
+chmod ugo = rw mitexto.txt
+
+- Para cambiar de usuario en Ubuntu WSL:
+
+sudo -i
+
+
+- Para cambiar la contraseña del usuario:
+
+passwd

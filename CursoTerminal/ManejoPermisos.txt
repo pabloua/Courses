@@ -1,0 +1,3 @@
+Dirigirse a este enlace para entender mejor como funcionan los permisos de los archivos y directorios:
+
+https://platzi.com/clases/2292-terminal/37348-como-se-manejan-los-permisos/

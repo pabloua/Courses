@@ -1,0 +1,63 @@
+Comandos útiles para usar en la terminal:
+
+- Crear un directorio:
+
+mkdir <Nombre_Del_Directorio>
+
+- Crear un directorio con espacios [NO ES RECOMENDADO]:
+
+mkdir '<Nombre Con Espacios>'
+
+- Para listar todos los archivos/directorios de una carpeta:
+
+ls 
+
+- Para listar los archivos con sus tamaños más legibles:
+
+ls -lh
+
+- Para listar los archivos ocultos:
+
+ls -a
+
+- Para listar los archivos on orden descendente:
+
+ls -lr
+
+- Identificar la ruta que estamos en el sistema: 
+
+pwd
+
+- Para crear múltiples archivos al tiempo:
+
+touch <Nombre_Archivo_1> <Nombre_Archivo_2> <Nombre_Archivo_3>
+
+- Como copiar un archivo:
+
+cp <nombreDelArchivoParaCopiar> <nombreParaLaCopia>
+
+- Para cambiarle el nombre a un archivo pero que se mantenga en el mismo lugar:
+
+mv <nombreDelArchivoOriginal> <nombreDelArchivoNuevo>
+
+- Para mover archivo/directorio:
+
+mv <archivoParaMover> <destinoDelArchivo>
+
+- Para ver un esquema de la estructura de todos los directorios y archivos:
+
+tree
+tree -L <NúmeroDeNiveles>
+tree -L 2 
+
+- [PELIGRO] Como borrar un archivo (interactivo):
+
+rm -i <NombreDelArchivo>
+
+- [PELIGRO] Como borrar un directorio de forma recursiva: 
+
+rm -ri <NombreDelDirectorio>
+
+- [PELIGRO EXTREMO] Como forzar la eliminacion de un archivo:
+
+rm -f <NombreDelArchivo>
