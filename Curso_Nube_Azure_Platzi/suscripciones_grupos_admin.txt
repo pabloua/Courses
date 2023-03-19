@@ -1,0 +1,28 @@
+Por Fernando Trasvent - Platzi User
+
+Se necesita de una suscripción de Azure para utilizar sus servicios:
+
+-> Desarrollador: pagas por los servicios a medida que los utilices.
+-> Prueba: experimentar de manera gratuita.
+-> Suscripción: a través de un partner compras servicios de Azure.
+-> Estudiante: a través de un email autorizado (.edu)
+
+Limites
+
+-> Facturación: forma de facturarse. Cada suscripción tiene su factura.
+-> Control de acceso: cada suscripción tiene directivas de acceso.
+
+¿Cuándo se necesita más suscripciones?
+
+-> Entorno: separación de entornos de trabajos como desarrollo, pruebas, aislamiento de datos, entre otros.
+-> Estructura Organizacional: limitaciones según presupuesto, tiempo, por equipos o acceso a recursos.
+-> Facturación: para facilitar el seguimiento de costos según entornos como producción, desarrollo o pruebas.
+-> Límites por suscripción: Pueden haber algunas limitaciones de hardware por suscripción, entonces es necesario crear nuevas.
+
+Grupos de Administración - Consideraciones:
+
+-> Hasta 10 000 grupos de administración en un único directorio.
+-> El árbol de grupo de administración puede admitir hasta seis niveles de profundidad.
+-> Cada grupo de administración y suscripción solo puede admitir un elemento primario.
+-> Cada grupo de administración puede tener muchos elementos secundarios.
+-> Todas las suscripciones y grupos de administración están dentro de una única jerarquía en cada directorio.
