@@ -1,0 +1,68 @@
+Por Fernando Trasvent - Platzi User
+
+1. Azure Virtual Machines:
+
+-> IaaS
+-> Conveniente para:
+/-> Pruebas y desarrollo.
+/-> Ejecutar aplicaciones en la nube.
+/-> Extender recursos en la nube.
+/-> Recuperación ante desastres.
+-> Migración (lift-and-shift)
+-> Azure Batch:
+/-> Conjuntos de VMs.
+/-> Configuración en minutos de máquinas idénticas.
+/-> Aumento o disminución automático.
+
+2. Azure Container Instances
+
+-> PaaS para ejecución de contenedores
+/-> Sencillo
+/-> Sin servicios adicionales
+/-> Permite carga de contenedores
+
+3. Azure Kubernetes Service
+
+-> Orquestación (automatización y administración) de contenedores en volumen.
+-> Utilidad de contenedores:
+/-> Dividir las partes de una aplicación.
+/-> Hacer cambios sin afectar otras partes.
+/-> Hacer pruebas en entornos aislados
+
+4. Azure App Service
+-> PaaS para crear y alojar aplicaciones conectadas a la web.
+-> Compatible con Windows, Linux e implementaciones automatizadas.
+-> Tipos de servicios:
+/-> Aplicaciones web.
+/-> Aplicaciones de API.
+/-> Operaciones en segundo plano.
+/-> Aplicaciones móviles.
+
+5. Azure Functions (serverless)
+
+-> Funciones que responden a eventos:
+/-> Peticiones REST.
+/-> Temporizador.
+/-> Mensajes de otro servicio.
+-> Escalan automáticamente.
+-> Sin estado.
+-> Con estado (Durable Functions).
+
+6. Azure Logic Apps (serverless)
+
+-> Flujos de trabajo basados en eventos.
+-> Cuenta con una GUI.
+-> Se crean de forma visual o en JSON.
+-> Cuenta con más de 200 conectores y bloques.
+
+7. Windows Virtual Desktop
+
+-> Tener Windows en cualquier lugar.
+-> Compatible con los sistemas operativos mas populares o incluso navegadores web.
+-> Ventajas:
+/-> Compatibilidad.
+/-> Mejor experiencia de uso.
+/-> Seguridad.
+/-> Rendimiento.
+/-> Inicio de sesión múltiple.
+/-> Licencias propias.
