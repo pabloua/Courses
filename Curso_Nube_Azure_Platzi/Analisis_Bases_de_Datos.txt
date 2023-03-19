@@ -1,0 +1,88 @@
+
+
+Tipos de bases de datos:
+
+-> Estructuradas (SQL)
+-> No Estructuradas (NoSQL)
+
+Tipos de Datos:
+
+-> Estructurados
+-> Semi-estructurados
+-> No estructarados
+
+Servicios:
+
+1. Azure Cosmo DB:
+
+-> Servicio de bases de datos NoSQL, elástico e independiente al rendimiento y almacenamiento de las regiones.
+-> Almacena datos en formato de secuencia de registro de átomos (ARS).
+-> Se abstraen los datos y se proyectan como una API.
+-> Compatibilidad con SQL, Gremlin, Cassandra, MondoDB
+
+2. Azure SQL Database
+
+-> Basado en Microsoft SQL Server.
+-> Alto rendimiento
+-> Confiable
+-> Administrada
+-> Segura
+-> Compatible con NoSQL
+-> Funciona como PaaS controlando las funciones administrativas de una BD:
+/-> Actualizaciones
+/-> Revisiones
+/-> Backups
+/-> Supervisión
+
+3. Azure SQL Managed Instance
+
+-> Comando para backup.
+-> Common language runtime (CLR).
+/-> CLR: Es el entorno de ejecución de código .NET en SQL que se encarga de compilar y convertir el código pára que sea ejecutado en la CPU de la máquina.
+-> Transacciones entre bases de datos.
+-> No cuenta con escalado automático.
+
+Servicios para motores específicos
+
+1. Azure Database for MySQL
+-> Basado en MySQL Community Edition 5.6, 5.7 y 8.0.
+-> Alta disponibilidad.
+-> Escalado en segundos.
+-> Protección de información.
+-> Backups automáticos.
+
+2. Azure Database for PostgreSQL
+
+-> Basado en PostgreSQL.
+-> Opción de servidor único:
+/-> Básico
+/-> Uso general
+/-> Optimizado
+-> Hiperscala (Citus) para cargas de
+100 GB o más.
+
+Servicios de análisis y big data
+
+1. Azure Synapse Analytics
+
+-> Análisis de datos de todo tipo: sin procesar, refinados o seleccionados.
+-> Por medio de recursos sin servidor o provisionados.
+-> Compatible con SQL y Apache Spark.
+
+2. Azure HDInsight
+
+-> Análisis de datos de open source.
+-> Procesa grandes volúmenes de datos.
+-> Puede crear clusters de tipo Spark, Hadoop, Kafka, HBase y más.
+-> Admite ETLs.
+
+3. Azure Databricks
+-> Descubre información de volúmenes masivos de datos.
+-> Compatible con Apache Spark.
+-> Funciona Python, Scala, R, Java, SQL, TensorFlow, PyTorch y Scikit-Learn.
+
+4. Azure Data Lake Analytics
+
+-> Realiza análisis bajo demanda.
+-> Enfocado a ETL en lugar de configurar hardware.
+-> Modelo pay as you go.
