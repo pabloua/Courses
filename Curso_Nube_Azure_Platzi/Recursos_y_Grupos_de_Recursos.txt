@@ -1,0 +1,24 @@
+Por Fernando Trasvent - Platzi User
+
+Recurso: elemento administrable en Azure.
+
+Grupo de recursos: contenedor de recursos relacionados a una solución.
+
+Características
+
+-> Todos los recursos deben estar en un grupo.
+-> Un recurso solo puede pertenecer a un grupo.
+-> Cuando eliminas un grupo de recursos, también elimina todos los recursos contenidos.
+
+Autorización
+
+-> Utilizan permisos de control basado en roles (RBAC), permitiendo acceso solo a lo necesario.
+
+Herramientas - Azure Resource Manager - Ventajas
+
+-> Plantillas en JSON.
+-> Administrar recursos por grupo.
+-> Capacidad de reutilización.
+-> RBAC.
+-> Etiquetas.
+-> Facturación.
