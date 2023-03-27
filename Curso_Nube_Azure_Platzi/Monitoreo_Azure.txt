@@ -1,0 +1,3 @@
+Azure Advisor: nos brinda consejos y evalúa recursos a través del portal de Azure o su API.
+Azure Monitor: recopila datos para tomar decisiones basados en métricas del entorno local o la nube. Las fuentes son diversas como ser SO, aplicaciones, suscripciones.
+Azure Service Health: brinda una vista personalizada del estado de los servicios, regiones y recursos de Azure.

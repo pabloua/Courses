@@ -1,0 +1,29 @@
+Por Fernando Trasvent - Platzi User
+
+Azure Blob Storage
+
+->Almacenamiento no estructurado.
+-> Sin restricciones.
+-> Soporta miles de cargas simultáneas.
+-> Ideal para:
+/-> Visualizar imágenes o videos.
+/-> Acceso distribuido.
+/-> Streaming.
+/-> Backup.
+/-> Análisis de datos.
+/-> Almacenamiento de VMs >8 TB.
+
+Azure Files
+
+-> Recursos compartidos administrados en la nube bajo protocolos SMB y NFS.
+-> Pueden estar en local o en la nube.
+-> Ideal para:
+/-> Cuando muchas aplicaciones usan recursos compartidos.
+/-> Acceder a recursos desde varias VMs.
+/-> Similar a OneDrive.
+
+Niveles de acceso:
+
+1. Frecuente: Imágenes o descargas de un sitio web.
+2. Esporádico (30 días): Reportes mensuales, facturas, etc.
+3. Archivo (180 días): Copias de seguridad.

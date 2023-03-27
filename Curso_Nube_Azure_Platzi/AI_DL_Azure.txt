@@ -1,0 +1,18 @@
+Azure Machine Learning
+
+-> PaaS para realizar predicciones conectándose a datos para entrenar y probar modelos.
+-> Ofrece control completo del diseño y entrenamiento de algoritmos.
+
+Azure Cognitive Services
+
+-> Modelos de ML creados que permiten a una aplicación ver, oír, hablar, entender y pensar. No se necesitan conocimientos en ML o DS.
+-> Categorías:
+/-> Lengua
+/-> Voz
+/-> Visión
+/-> Decisión
+
+Azure Bot Service
+
+-> Bot Framework.
+-> Creación de agentes virtuales que pueden usar otros servicios.

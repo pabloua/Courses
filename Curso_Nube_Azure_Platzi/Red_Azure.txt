@@ -1,0 +1,27 @@
+Azure Virtual Network
+
+-> Permite a los recursos de Azure comunicarse entre sí, con usuarios de internet y equipos cliente en local.
+-> Funcionalidades:
+/-> Aislamiento y segmentación
+/-> Comunicación con internet
+/-> Comunicación entre recursos
+//-> Redes virtuales.
+//-> Puntos de conexión de servicio.
+/-> Comunicación entre recursos locales
+//-> Redes virtuales de punto a sitio.
+//-> Redes privadas virtuales (VPN) de sitio a sitio.
+//-> Azure ExpressRoute.
+/-> Enrutamiento del tráfico de red
+//-> Tablas de ruta.
+//-> Protocolo de puerta de enlace de borde (BGP).
+/-> Filtrado del tráfico de red
+//-> Grupos de seguridad de red.
+//-> Aplicaciones virtuales de red.
+
+Azure VPN Gateway
+
+-> Conecta redes locales a Azure vía VPN de sitio a sitio/punto, a sitio, a través de protocolos IPsec e IKE.
+
+Azure ExpressRoute
+
+-> Genera conexiones privadas entre Azure y la infraestructura, de forma confiable y rápida, sin utilizar internet público.

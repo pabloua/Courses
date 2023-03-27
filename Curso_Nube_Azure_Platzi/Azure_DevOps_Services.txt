@@ -1,0 +1,24 @@
+
+Azure DevOps Services
+
+1. Azure Repos
+->Repositorios de código fuente centralizado para publicar código y colaborar.
+2. Azure Boards
+->Tableros para gestión de proyectos como Kanban, informes, incidencias, epics, etc.
+3. Azure Pipelines
+-> Herramienta de automatización de:
+/-> Continuos Integration
+/-> Continuos Delivery
+4. Azure Artifacts
+->Repositorio para alojar artefactos que se incluyen en el flujo de pruebas o implementación.
+5. Azure Test Plans
+-> Herramientas de pruebas automatizadas para garantizar la calidad antes de lanzar software.
+
+GitHub & GitHub Actions
+
+-> Git: herramienta de control de versiones.
+-> GitHub: repositorio de código remoto.
+1. GitHub Actions
+-> Automatización de flujos de trabajo basado en triggers, especialmente para CI/CD.
+Azure DevTest Labs
+-> Medio automatizado para administrar proceso de compilación, configuración y anulación de VMs y otros recursos.
