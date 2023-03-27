@@ -1,0 +1,25 @@
+Azure Functions
+
+-> Alojamiento de métodos o funciones que se ejecutan enrespuesta a eventos:
+/-> Solicitudes HTTP
+/-> Temporizadores
+/-> Mensajes
+/-> Acciones
+-> Ventajas:
+/-> Escalado automático.
+/-> Pago por función ejecutada.
+/-> Con o sin estado.
+/-> Tareas de orquestación (durable functions).
+-> Lenguajes compatibles
+/-> C#
+/-> JavaScript
+/-> Python
+/-> TypeScript
+/-> Java
+/-> Shell
+
+Azure Logic Apps
+
+-> No-code/Low-code.
+-> Ideal par automatizar y organizar.
+-> Integra aplicaciones, datos y sistemas.

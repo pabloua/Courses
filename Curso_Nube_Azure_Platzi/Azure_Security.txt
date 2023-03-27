@@ -1,0 +1,63 @@
+
+*Servicios de seguridad administrativa
+
+**Servicios de Seguridad
+
+1. Azure Security Center
+
+-> Servicio que brinda visibilidad del nivel de seguridad de los servicios en Azure y local
+-> Supervisa la configuración de seguridad
+-> Aplica cambios automáticamente
+-> Brinda recomendaciones
+-> Detecta y bloquea amenazas de malware con ML
+-> Detecta ataques e investiga amenazas
+-> Proporciona control de acceso Just-in-Time
+
+2. Puntuación de seguridad
+
+-> Es la medida del nivel de seguridad y permite:
+/-> Notificar el estado actual
+/-> Mejorar el nivel.
+/-> Compara puntos de referencia
+
+3. Azure Sentinel
+
+-> SIEM en la nube de análisis de seguridad y amenazas
+/-> Recopila datos en volumen
+/-> Detecta amenazas
+/-> Investiga con IA
+/-> Responde a incidentes
+
+4. Azure Key Vault
+
+-> Servicio centralizado para almacenar datos confidenciales
+-> Administra:
+/-> Secretos
+/-> Claves de cifrado
+/-> Certificados SSL/TLS
+/-> Respaldos por módulos de seguridad de hardware (HMS)
+
+5. Azure Dedicated Host
+
+-> Servidores físicos que no se comparten con otros inquilinos y/o aplicaciones
+-> Ofrece visibilidad y control
+-> Asegura requisitos de cumplimiento
+-> Personalizable
+-> Puede tener mayor costo
+
+6. Servicios de seguridad en red
+
+-> Azure Firewall
+-> Azure DDoS Protection
+-> Combinación de servicios
+
+7. Servicios de identidad
+
+-> Autenticación (AuthN)
+/-> Solicitar credenciales legítimas
+-> Autorización (AuthZ)
+/-> Establecer el nivel de acceso a una persona o servicio autenticado
+
+-> Azure Active Directory
+-> Multi-Factor Authentication
+-> Inicio de sesión único (SSO)

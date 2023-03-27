@@ -1,0 +1,28 @@
+Por Steven Rivas - Platzi User
+
+Al trabajar en la nube es necesario tener un buen control y administración del trabajo. Azure nos brinda de herramientas para la administración de trabajo, las cuales pueden ser visuales o basadas en código.
+
+AZURE PORTAL
+
+Es una consola unificada basada en web que proporciona una alternativa a las herramientas de línea de comandos. Con Azure Portal, puede administrar su suscripción a Azure mediante una interfaz gráfica de usuario.
+
+AZURE MOBILE APP
+
+-> Compatible con iOS y Android
+-> Supervisa estado de Azure
+-> Alertas, diagnósticos y correcciones
+-> Ejecutar comandos de CLI o Azure PowerShell
+
+HERRAMIENTAS BASADAS EN CÓDIGO
+
+-> Azure PowerShell
+-> Azure CLI
+-> Cloud Shell
+
+AZURE RESOURCES MANAGER TEMPLATES
+
+Es un administrador de plantillas de recursos
+
+-> Formato JSON
+-> Se comprueban antes de ejecutarse
+-> Se define el estado y configuración de cada recurso, la plantilla hace el resto

@@ -1,0 +1,10 @@
+Azure IoT Hub
+
+-> Centro de mensajes entre aplicaciones IoT y dispositivos.
+-> Permite control remoto manual o automatizado de dispositivos.
+-> Cuenta con supervisión
+
+Azure IoT Central
+
+-> Basado en IoT Hub con interfaz visual.
+-> Posee plantillas para escenarios comunes.
